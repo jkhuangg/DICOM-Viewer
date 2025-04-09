@@ -16,7 +16,7 @@
 
 namespace fs = std::filesystem;
 
-std::vector<GLuint>textures;
+std::vector<GLuint> textures;
 int activeView = 1; 
 float sliceZs[4] = { 0.5f, 0.5f, 0.5f, 0.5f };
 float zoomLevels[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
